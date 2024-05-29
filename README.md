@@ -1,6 +1,6 @@
-# modern-crypto-explorer
+# Tehrain-manta modern-crypto-explorer
 
-This is a crypto tracking starter app! 😊
+This is a modern crypto explorer tracking starter app! 😊
 It picks up data from free and open APIs to track the top 100 cryptos. 
 
 <img width="1768" alt="Video" src="https://github.com/katiBe3/modern-crypto-explorer/blob/main/src/assets/Video.gif?raw=true">
@@ -28,7 +28,7 @@ If you clone this repo and push changes, you will have them reflected in the GPT
 ## Setup
 
 ```sh
-git clone https://github.com/katiBe3/modern-crypto-explorer.git
+git clone https://github.com/Thycrescendo/Tehrain-manta
 cd modern-crypto-explorer
 npm i
 ```
