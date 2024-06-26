@@ -1,50 +1,16 @@
-# Tehrain-manta modern-crypto-explorer
+# zkOrderDish
+In developing the "zkOrderDish" application, several key lessons were likely learned:
 
-This is a modern crypto explorer tracking starter app! 😊
-It picks up data from free and open APIs to track the top 100 cryptos. 
+1. **Framework Selection**: Choosing Next.js provided benefits such as server-side rendering, automatic code splitting, and simplified deployment. This likely taught the developers about the advantages of using frameworks that streamline development and improve performance.
 
-<img width="1768" alt="Video" src="https://github.com/katiBe3/modern-crypto-explorer/blob/main/src/assets/Video.gif?raw=true">
+2. **Integration of Third-Party Services**: Incorporating CosmicJS for content management demonstrated the importance of leveraging headless CMS solutions for dynamic content updates and API-driven workflows. This experience likely highlighted the efficiency gained by separating content management from frontend development.
 
-## Features
-* Allows user to explore and filter the top 100 cryptos.
-* Fetches current market data every 5 seconds.
-* The favorite page shows matching news based on the users favorite cryptos.❤️
-* Has it's own fear & greed index (based on historical & current bitcoin data).
-* Shows BTC & ETH dominance, 24h volume and current ETH gas prices.
-* Has a crypto name & symbol search integrated.
-* Whale watch feature is constantly looking for high buys on the blockchain.
-* Crypto detail page shows [tradingview](https://github.com/tradingview/lightweight-charts) charts and links to top 3 trading websites (by volume).
-* Uses Skeletons on load for better user experience.
-* Leverages [Zustand](https://github.com/pmndrs/zustand) for easy state management across the application.
+3. **Security Implementation**: Implementing o1js for zero-knowledge proofs emphasized the significance of privacy and data security in application development. This likely deepened the understanding of cryptographic tools and techniques for safeguarding user data.
 
-## Collaborate with GPT Engineer
+4. **Development Workflow**: Using ESLint for code linting and maintaining consistent coding standards throughout the project underscored the importance of code quality and readability. This experience likely improved the development team's efficiency and collaboration.
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+5. **User Experience and Scalability**: Focusing on enhancing UI responsiveness and planning for scalability in future enhancements highlighted the importance of delivering a smooth user experience while preparing for future growth.
 
-Changes made via gptengineer.app will be committed to this repo.
+6. **Continuous Improvement**: Planning for future enhancements, such as improving security features and expanding functionality, demonstrated a commitment to ongoing development and responding to user feedback. This iterative approach likely emphasized the importance of adaptability and continuous improvement in software development.
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
-
-## Setup
-
-```sh
-git clone https://github.com/Thycrescendo/Tehrain-manta
-cd modern-crypto-explorer
-npm i
-```
-
-```sh
-npm run dev
-```
-
-This will run a dev server with auto reloading and an instant preview.
-
-## Tech stack
-
-- [Vite](https://vitejs.dev/)
-- [React](https://react.dev/)
-- [Chakra UI](https://chakra-ui.com/)
-
-## Requirements
-
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Overall, the development of "zkOrderDish" provided valuable insights into using modern technologies effectively, prioritizing security and user experience, and maintaining high standards of code quality and scalability. These learnings contribute to a more informed and capable development team, ready to tackle future challenges and opportunities in application development.
